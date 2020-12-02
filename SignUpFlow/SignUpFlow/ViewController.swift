@@ -2,6 +2,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
     //MARK: - IBOutlets
     @IBOutlet weak var logoImageView: UIImageView!
     @IBOutlet weak var idTextField: UITextField!
@@ -38,6 +39,7 @@ class ViewController: UIViewController {
         textField.isSecureTextEntry = true
         textField.returnKeyType = .done
     }
+
 }
 
 //MARK: - UITextFieldDelegate
